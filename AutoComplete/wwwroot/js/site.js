@@ -4,5 +4,7 @@
 // Write your JavaScript code.
 $("#input").on("input", function () {
     $("#list1").empty();
-    $("#list1").load("/Home/AutoComplete", { suche: $("#input").val() });
+    if ($("#input").val().length >= 3) {
+        $("#list1").load("/Home/AutoComplete", { suche: $("#input").val() });
+    }
 });

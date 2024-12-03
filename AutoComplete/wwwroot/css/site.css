@@ -20,3 +20,16 @@ html {
 body {
   margin-bottom: 60px;
 }
+#filmTitel {
+    width: 100%;
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.5px;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
